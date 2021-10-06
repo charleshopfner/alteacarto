@@ -1,6 +1,10 @@
 .headerNav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
     padding: 30px;
-
+    margin-bottom: 50px;
+    box-shadow: 2px 0px 10px white;
 }
