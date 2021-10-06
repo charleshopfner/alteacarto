@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@imaginary-cloud/eslint-config-react": "1.0.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -11,7 +13,6 @@
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
-    "bootstrap": "^5.1.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.1",
@@ -35,8 +36,7 @@
     "format": "prettier --write \"{,!(node_modules)/**/}*.js\""
   },
   "eslintConfig": {
-    "extends": 
-      "@imaginary-cloud/react"
+    "extends": "@imaginary-cloud/react"
   },
   "browserslist": {
     "production": [
